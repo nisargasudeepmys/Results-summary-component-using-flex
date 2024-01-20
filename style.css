@@ -211,7 +211,8 @@ button:hover
 
     main
     {
-        margin: 2rem;
+        margin-top:2rem;
+        margin: 5rem;
     }
 
     main>div
