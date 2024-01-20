@@ -172,7 +172,7 @@ button
     display: flex;
     justify-content: center;
     align-items: center;
-    
+
     padding: 1rem 8rem;
     margin-top: 1.2rem;
     margin-bottom: 1rem;
@@ -184,8 +184,10 @@ button:hover
 }
 
 
-@media(max-width:900px)
+@media((max-width:900px) and (min-width:375px)) 
 {
+    
+
     main>div
      {
         flex-direction: column;
@@ -202,4 +204,29 @@ button:hover
         
      }
 
+}
+
+@media(max-width:375px)
+{
+
+    main
+    {
+        margin: 2rem;
+    }
+
+    main>div
+    {
+       flex-direction: column;
+    };
+
+    #result-section
+    {
+       width: 454.094px;
+    }
+
+    #summary-section
+    {
+       margin:0;
+       
+    }
 }
